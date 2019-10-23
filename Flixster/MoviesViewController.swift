@@ -4,7 +4,7 @@
 //
 //  Created by cs_apple_05 on 10/15/19.
 //  Copyright © 2019 BrittneyGulley94@gmail.com. All rights reserved.
-//
+// 
 
 import UIKit
 import AlamofireImage
@@ -24,6 +24,8 @@ class MoviesViewController: UIViewController, UITableViewDataSource, UITableView
         
         // Do any additional setup after loading the view.
          print("Hello")
+        
+         print("some more stuff")
         
         let url = URL(string: "https://api.themoviedb.org/3/movie/now_playing?api_key=a07e22bc18f5cb106bfe4cc1f83ad8ed")!
         let request = URLRequest(url: url, cachePolicy: .reloadIgnoringLocalCacheData, timeoutInterval: 10)
